@@ -1,0 +1,32 @@
+<svg fill="none" viewBox="0 0 4000 3000" width="1800" height="1200" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+               .badges {
+            display: inline-block;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+        }
+        .github {
+            background-color: #333;
+        }
+        .gmail {
+            background-color: #db4437;
+        }
+        .linkedin {
+            background-color: #0077b5;
+        }
+          
+            </style>
+            <div class="badges">
+                <a href="https://github.com/tu-usuario" class="github">GitHub</a>
+                <a href="mailto:tu-email@gmail.com" class="gmail">Gmail</a>
+                <a href="https://www.linkedin.com/in/tu-usuario" class="linkedin">LinkedIn</a>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
