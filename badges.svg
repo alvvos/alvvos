@@ -22,9 +22,6 @@
                     font-family: 'Montserrat', Sans-serif;
                     font-weight: 100;
                 }
-                .badges:hover {
-                    transform: translateY(-100px);
-                }
                 .github {
                     background-color: #333;
                     margin: 1em;
