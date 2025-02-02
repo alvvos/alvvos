@@ -1,22 +1,46 @@
-<svg fill="none" viewBox="0 0 1200 1200" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%" >
+<svg fill="none" viewBox="0 0 4000 3000" width="2200" height="1200" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-.hit-the-floor {
-    color: #EEEEEE; /* Color del texto 404 oscurecido */
-    font-size: 12em;
-    font-weight: bold;
-    font-family: Montserrat;
- text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-}
-
-.hit-the-floor {
-    text-align: center;
-}
-
-
+                .header_banner {
+                    color: #EEEEEE; /* Color del texto 404 oscurecido */
+                    font-size: 12em;
+                    font-weight: bold;
+                    font-family: Montserrat;
+                    text-align: center;
+                    text-shadow: 
+                        0 1px 0 #ccc, 
+                        0 2px 0 #c9c9c9, 
+                        0 3px 0 #bbb, 
+                        0 4px 0 #b9b9b9, 
+                        0 5px 0 #aaa, 
+                        0 6px 1px rgba(0,0,0,.1), 
+                        0 0 5px rgba(0,0,0,.1), 
+                        0 1px 3px rgba(0,0,0,.3), 
+                        0 3px 5px rgba(0,0,0,.2), 
+                        0 5px 10px rgba(0,0,0,.25), 
+                        0 10px 10px rgba(0,0,0,.2), 
+                        0 20px 20px rgba(0,0,0,.15);
+                }
+                .intro h2{
+                    font-family : Montserrat;
+                    font-size: 60px;
+                    font-weight: 200;
+                    line-height: 2;
+                    text-align: center;
+                    color: #fff;
+                    
+                }
+                .intro{
+                    margin-top: 4em;
+                }
             </style>
-            <div class="hit-the-floor">Welcome!</div>
+            <div class="header_banner">Welcome!</div>
+            <div class="intro">
+                <h2>Hello! My name is Álvaro Salis. I define myself as a committed individual, dedicated to my goals and to the people around me. Currently, I am studying Mathematics and Software Engineering while working on various application development projects with companies and individuals. Additionally, I have started my own online businesses related to my studies.</h2>
+            </div>
+         
+        
         </div>
     </foreignObject>
 </svg>
