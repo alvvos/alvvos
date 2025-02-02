@@ -7,8 +7,8 @@
                     justify-content: center;
                     align-items: center;
                     text-align: center;
-                    height: 300;
-                    width: 800;     
+                    height: 300px;
+                    width: 800px;     
                 }
                 .badges {
                     display: inline-block;
