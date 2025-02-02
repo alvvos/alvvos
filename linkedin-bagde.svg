@@ -20,7 +20,7 @@
                     text-decoration: none;
                     margin: 5px;
                     font-family: 'Montserrat', Sans-serif;
-                    font-weight: 200;
+                    font-weight: 300;
                 }
                 .email {
                     background-color: #0077b5;
