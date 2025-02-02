@@ -22,10 +22,6 @@
                     font-family: 'Montserrat', Sans-serif;
                     font-weight: 100;
                 }
-                .github {
-                    background-color: #333;
-                    margin: 1em;
-                }
                 .gmail {
                     background-color: #db4437;
                     margin: 1em;
@@ -36,9 +32,8 @@
                 }
             </style>
             <div class="container">
-                <a href="https://github.com/tu-usuario" class="badges github">GitHub</a>
-                <a href="mailto:tu-email@gmail.com" class="badges gmail">Gmail</a>
-                <a href="https://www.linkedin.com/in/tu-usuario" class="badges linkedin">LinkedIn</a>
+                <a href="mailto:contacto@alvaro.salis.com" class="badges gmail">Gmail</a>
+                <a href="https://www.linkedin.com/in/alvaro-salis" class="badges linkedin">LinkedIn</a>
             </div>
         </div>
     </foreignObject>
