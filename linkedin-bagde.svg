@@ -8,7 +8,8 @@
                     align-items: center;
                     text-align: center;
                     height: 300px;
-                    width: 800px;     
+                    width: 800px;   
+                   
                 }
                 .badges {
                     display: inline-block;
@@ -20,6 +21,7 @@
                     text-decoration: none;
                     font-family: 'Montserrat', Sans-serif;
                     font-weight: 300;
+                    margin-right: 50px;
                 }
                 .email {
                     background-color: #0e76a8;
