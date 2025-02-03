@@ -2,7 +2,7 @@
     <img src="hello.svg" width="700" alt="css-in-readme">
 </div>
 
-# 🚀 About Me
+## 🚀 About Me
 
 #### 🔭 I am currently working on projects that involve React Native, focusing on integrating with Supabase for backend services.
 
