@@ -20,7 +20,7 @@
 
 <br />
 
-## `>` whoami
+## `>` Whoami
 
 ```ts
 const alvaro = {
