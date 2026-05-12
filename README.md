@@ -32,7 +32,7 @@ const alvaro = {
 };
 ```
 
-I work at the intersection of **mathematics, AI and software engineering** — turning abstract ideas into production systems that solve real problems.
+I work at the intersection of **mathematics, AI and software engineering** turning abstract ideas into production systems that solve real problems.
 
 ---
 
