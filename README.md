@@ -36,7 +36,7 @@ I work at the intersection of **mathematics, AI and software engineering** — t
 
 ---
 
-## `>` tech stack
+## `>` Tech stack
 
 #### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
