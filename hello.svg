@@ -1,78 +1,200 @@
 <svg fill="none" viewBox="0 0 1800 500" width="1800" height="500" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-            <style>
-                p {
-                    text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
-                }
-                .container {
-                    color: white;
-                    font-family: 'Montserrat', Sans-serif;
-                    font-weight: 700;
-                    font-size: 5.26rem;
-                    text-transform: uppercase;
-                    height: 100vh;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    width: 1800px;
-                    height: 500px;
-                }
-                .animation {
-                    height: 110px;
-                    width: 800px;
-                    overflow: hidden;
-                    margin-left: 2rem;
-                    border-radius: 50px;
-                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-                
-                }
-                .animation > div > div {
-                    padding-top: 2.25rem;
-                    padding-bottom:  2.25rem;
-                    height: 5.81rem;
-                    margin-bottom: 5.81rem;
-                    display: inline-block;
-                    font-size: 4.26rem;
-                    border-radius: 50px;
-                    width: 800px;
-                    text-align: center;
-                
-                }
-                .animation div:first-child {
-                    animation: text-animation 8s infinite;
-                }
-                .first div {
-                    background-color: #20a7d8;
-                }
-                .second div {
-                    background-color: #CD921E;
-                }
-                .third div {
-                    background-color: #c10528;
-                }
-                @keyframes text-animation {
-                    0% { margin-top: -0.5rem; }
-                    10% { margin-top: -0.5rem; }
-                    20% { margin-top: -15rem; }
-                    30% { margin-top: -15rem; }
-                    40% { margin-top: -29.5rem; }
-                    60% { margin-top: -29.5rem; }
-                    70% { margin-top: -15rem; }
-                    80% { margin-top: -15rem; }
-                    90% { margin-top: -0.5rem; }
-                    100% { margin-top: -0.5rem; }
-                }
-            </style>
-            <main class="container">
-                <p>Hello 👋 I'm</p>
-                <section class="animation">
-                    <div class="first"><div>Álvaro Salís</div></div>
-                    <div class="second"><div>Full Stack Dev</div></div>
-                    <div class="third"><div>Data Scientist</div></div>
-                </section>
-            </main>
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap');
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        .container {
+          width: 1800px;
+          height: 500px;
+          background: #0a0a0a;
+          background-image:
+            radial-gradient(circle at 20% 30%, rgba(255, 255, 255, 0.04) 0%, transparent 50%),
+            radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.03) 0%, transparent 50%);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 3rem;
+          font-family: 'Inter', sans-serif;
+          color: #fafafa;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .container::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-image:
+            linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+          background-size: 50px 50px;
+          pointer-events: none;
+        }
+
+        .greeting {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          align-items: flex-end;
+          z-index: 2;
+        }
+
+        .hello {
+          font-size: 1.1rem;
+          font-weight: 400;
+          letter-spacing: 0.3em;
+          text-transform: uppercase;
+          color: #888;
+          font-family: 'JetBrains Mono', monospace;
+        }
+
+        .name {
+          font-size: 5.5rem;
+          font-weight: 700;
+          letter-spacing: -0.04em;
+          line-height: 1;
+          background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          color: transparent;
+        }
+
+        .divider {
+          width: 2px;
+          height: 180px;
+          background: linear-gradient(180deg, transparent 0%, #333 50%, transparent 100%);
+          z-index: 2;
+        }
+
+        .roles {
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+          align-items: flex-start;
+          z-index: 2;
+        }
+
+        .role-label {
+          font-size: 0.85rem;
+          font-weight: 400;
+          letter-spacing: 0.25em;
+          text-transform: uppercase;
+          color: #666;
+          font-family: 'JetBrains Mono', monospace;
+          display: flex;
+          align-items: center;
+          gap: 0.6rem;
+        }
+
+        .role-label::before {
+          content: '';
+          width: 8px;
+          height: 8px;
+          background: #fafafa;
+          border-radius: 50%;
+          animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.4; transform: scale(0.8); }
+        }
+
+        .role-window {
+          height: 110px;
+          width: 560px;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .role-window::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 2px;
+          background: #fafafa;
+        }
+
+        .role-list {
+          animation: cycle 9s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+          padding-left: 1.5rem;
+        }
+
+        .role-item {
+          height: 110px;
+          display: flex;
+          align-items: center;
+          font-size: 3.6rem;
+          font-weight: 600;
+          letter-spacing: -0.03em;
+          line-height: 1.2;
+          color: #fafafa;
+        }
+
+        .role-item .accent {
+          color: #888;
+          font-weight: 400;
+        }
+
+        @keyframes cycle {
+          0%, 25% { transform: translateY(0); }
+          33%, 58% { transform: translateY(-110px); }
+          66%, 91% { transform: translateY(-220px); }
+          100% { transform: translateY(0); }
+        }
+
+        .corner {
+          position: absolute;
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 0.75rem;
+          color: #444;
+          letter-spacing: 0.15em;
+          z-index: 2;
+        }
+
+        .corner-tl { top: 30px; left: 40px; }
+        .corner-tr { top: 30px; right: 40px; }
+        .corner-bl { bottom: 30px; left: 40px; }
+        .corner-br { bottom: 30px; right: 40px; }
+      </style>
+
+      <main class="container">
+        <span class="corner corner-tl">// PORTFOLIO_v2026</span>
+        <span class="corner corner-tr">[ MADRID · ES ]</span>
+        <span class="corner corner-bl">$ whoami</span>
+        <span class="corner corner-br">→ build · learn · ship</span>
+
+        <div class="greeting">
+          <div class="hello">Hello, I'm</div>
+          <div class="name">Álvaro Salís</div>
         </div>
-    </foreignObject>
+
+        <div class="divider"></div>
+
+        <div class="roles">
+          <div class="role-label">currently</div>
+          <div class="role-window">
+            <div class="role-list">
+              <div class="role-item">Mathematician<span class="accent">.</span></div>
+              <div class="role-item">AI Engineer<span class="accent">.</span></div>
+              <div class="role-item">Software Engineer<span class="accent">.</span></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </foreignObject>
 </svg>
